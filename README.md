@@ -3,9 +3,9 @@
 <div>
     <a href="https://github.com/Gary-Rainer-Chumacero-Vanderlei">
     <img height=" 170em"
-        src="https://github-readme-stats.vercel.app/api?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" />
+        src="https://github-readme-stats.vercel.app/api?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=True" />
     <img height="170em"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=True&layout=compact" />
     </a>
 </div>
 
