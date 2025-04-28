@@ -2,12 +2,12 @@
 
 <div>
     <a href="https://github.com/Gary-Rainer-Chumacero-Vanderlei">
-        <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&cache_seconds=1800" />
+        <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&cache_seconds=1800&show_icons=true" />
         <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact&cache_seconds=1800" />
     </a>
 </div>
 
-<div style="display: inline_block"><br>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;"><br>
     <img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -23,15 +23,15 @@
 
 ## Sobre mim:
 
-Sou apaixonado por melhoria contínua e novas tecnologias. Minha trajetória é marcada por minha dedicação em transformar dados em insights valiosos e processos em resultados eficientes. Busco constantemente desafios que me permitam aplicar meu conhecimento em gestão de projetos, programação e contabilidade para impactar positivamente organizações. Acredito que a inovação contínua e a colaboração são fundamentais para o sucesso em qualquer setor.
+Sou apaixonado por melhoria contínua e novas tecnologias. Minha trajetória é marcada pela dedicação em transformar dados em insights valiosos e processos em resultados eficientes. Busco constantemente desafios que me permitam aplicar meu conhecimento em gestão de projetos, programação e contabilidade para impactar positivamente organizações.
 
 ## Para contato, utilize as redes abaixo!
 
 <div>
     <a href="https://www.linkedin.com/in/garyrainercv" target="_blank">
-        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
     </a>
     <a href="https://wa.me/5583988044923" target="_blank">
-        <img src="https://img.shields.io/badge/-Whatsapp-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white" target="_blank">
+        <img src="https://img.shields.io/badge/-Whatsapp-darkgreen?style=for-the-badge&logo=Whatsapp&logoColor=white">
     </a>
 </div>
