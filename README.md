@@ -2,8 +2,8 @@
 
 <div>
     <a href="https://github.com/Gary-Rainer-Chumacero-Vanderlei">
-        <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=false&cache_seconds=1800" />
-        <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=false&layout=compact&cache_seconds=1800" />
+        <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&cache_seconds=1800" />
+        <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact&cache_seconds=1800" />
     </a>
 </div>
 
