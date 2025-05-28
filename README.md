@@ -1,14 +1,6 @@
 <!-- Bem-vindo ao perfil -->
 <h2>Bem-vindo(a) ao meu perfil 😁</h2>
 
-<!-- Container das estatísticas -->
-<div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
-    <a href="https://github.com/Gary-Rainer-Chumacero-Vanderlei">
-        <img height="170" src="https://github-readme-stats.vercel.app/api?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&cache_seconds=300&show_icons=true" />
-        <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gary-Rainer-Chumacero-Vanderlei&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact&cache_seconds=300" />
-    </a>
-</div>
-
 <!-- Tecnologias -->
 <h3>Tecnologias que uso 🚀</h3>
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
