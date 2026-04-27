@@ -75,11 +75,22 @@ Dashboard executivo completo para monitoramento de performance financeira de uma
 
 ---
 
-### 🔄 Projeto 2 — Análise Exploratória com Storytelling
+### ✅ Projeto 2 — Análise Exploratória com Storytelling
 
 **EDA · Visualização de Dados · Narrativa Analítica**
 
-> Em desenvolvimento
+Análise exploratória completa com storytelling em 3 atos para uma clínica médica multiespecialidades (empresa fictícia: *Clínica Vida Plena Ltda.*), cobrindo 24 meses de dados simulados (Jan/2023 – Dez/2024).
+
+**O que foi construído:**
+- 4 datasets sintéticos: Atendimentos, Receita, Inadimplência e Agenda (seed=42)
+- 10 gráficos analíticos com tema dark consistente (Matplotlib + Seaborn)
+- Storytelling estruturado em 3 atos: Panorama · Diagnóstico · Insights
+- KPIs semaforizados: Inadimplência, No-show, Ocupação e Receita YoY
+- Quadrante estratégico por especialidade com recomendações de negócio
+
+**Stack:** `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Jupyter`
+
+🔗 Repositório: [`eda-storytelling`](https://github.com/Gary-Rainer-Chumacero-Vanderlei/eda-storytelling)
 
 ---
 
