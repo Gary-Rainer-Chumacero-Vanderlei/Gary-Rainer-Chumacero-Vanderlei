@@ -42,6 +42,7 @@ Certificado **Master Black Belt em Lean Six Sigma**, com foco em eficiência ope
 - Streamlit · Plotly · Matplotlib · Seaborn
 - Power BI (DAX, dashboards executivos)
 - SQLite · Modelagem de dados · ETL
+- openpyxl · ReportLab · Geração automática de Excel e PDF
 
 **Gestão & Processos**
 - Lean Six Sigma — Black Belt & Master Black Belt
@@ -64,10 +65,10 @@ Dashboard executivo completo para monitoramento de performance financeira de uma
 
 **O que foi construído:**
 - 4 datasets financeiros realistas: DRE, Fluxo de Caixa, Contas a Receber e Centro de Custos
-- 14 queries SQL organizadas em 5 blocos analíticos
-- EDA com 8 gráficos (Matplotlib + Seaborn)
-- Dashboard interativo com 4 páginas em Streamlit + Plotly (tema dark)
-- KPIs semaforizados: Margem EBITDA, Inadimplência, Score de Saúde Financeira
+- 14 queries SQL organizadas em 5 blocos analíticos (KPIs, YoY, ranking, outliers, score de saúde)
+- EDA com 8 visualizações diagnósticas em tema dark (Matplotlib + Seaborn)
+- Dashboard interativo com 4 páginas em Streamlit + Plotly: Visão Executiva, DRE Interativa, Fluxo de Caixa e Centro de Custos
+- KPIs semaforizados com deltas YoY: Margem EBITDA, Inadimplência, FCO e Score de Saúde Financeira composto (0–100)
 
 **Stack:** `Python` `Pandas` `NumPy` `SQL` `SQLite` `Streamlit` `Plotly` `Matplotlib` `Seaborn`
 
@@ -83,10 +84,10 @@ Análise exploratória completa com storytelling em 3 atos para uma clínica mé
 
 **O que foi construído:**
 - 4 datasets sintéticos: Atendimentos, Receita, Inadimplência e Agenda (seed=42)
-- 10 gráficos analíticos com tema dark consistente (Matplotlib + Seaborn)
-- Storytelling estruturado em 3 atos: Panorama · Diagnóstico · Insights
-- KPIs semaforizados: Inadimplência, No-show, Ocupação e Receita YoY
-- Quadrante estratégico por especialidade com recomendações de negócio
+- 10 visualizações diagnósticas em tema dark com hipóteses analíticas explícitas (Matplotlib + Seaborn)
+- Storytelling em 3 atos com perguntas de negócio conduzindo cada seção: Receita & Crescimento · Inadimplência & Risco · Ocupação & Eficiência Operacional
+- KPIs semaforizados: Inadimplência por convênio, Taxa de No-show, Ocupação de agenda e Receita YoY
+- Quadrante estratégico posicionando cada especialidade por receita × risco com recomendações acionáveis
 
 **Stack:** `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Jupyter`
 
@@ -94,11 +95,23 @@ Análise exploratória completa com storytelling em 3 atos para uma clínica mé
 
 ---
 
-### 🔄 Projeto 3 — Automação de Relatório Contábil/Financeiro
+### ✅ Projeto 3 — Automação de Relatório Contábil/Financeiro
 
-**Python · Excel · Automação · Relatórios Recorrentes**
+**Python · Excel · PDF · Automação · Controladoria**
 
-> Em desenvolvimento
+Pipeline completo de automação do fechamento mensal para uma rede de supermercados (empresa fictícia: *Rede Máxima Supermercados Ltda.*), cobrindo 5 lojas regionais e 24 meses de dados simulados (Jan/2023 – Dez/2024).
+
+**O que foi construído:**
+- 5 datasets sintéticos: DRE por loja, Fluxo de Caixa, Contas a Receber (aging em 6 faixas), Centro de Custos e Orçamento (seed=42)
+- Motor ETL em Pandas com CLI parametrizável: `--mes`, `--loja`, `--formato`, `--output`
+- Excel (.xlsx) com 5 abas estruturadas: Resumo Executivo, DRE por Loja, Ranking, Aging de Recebíveis e Gráficos embutidos em tema dark
+- PDF executivo de 4 páginas: Capa, KPIs semaforizados, Gráficos analíticos e DRE Consolidada por loja
+- Comentário executivo gerado automaticamente a partir dos KPIs calculados pelo ETL — sem intervenção manual
+- Agendador (`agendador.py`) que dispara o fechamento todo dia 1º às 06:00 via `schedule`, replicando o ciclo real de Controladoria
+
+**Stack:** `Python` `Pandas` `NumPy` `openpyxl` `ReportLab` `Matplotlib` `argparse` `schedule`
+
+🔗 Repositório: [`relatorio-contabil`](https://github.com/Gary-Rainer-Chumacero-Vanderlei/relatorio-contabil)
 
 ---
 
@@ -136,8 +149,13 @@ Análise exploratória completa com storytelling em 3 atos para uma clínica mé
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
+![openpyxl](https://img.shields.io/badge/openpyxl-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![ReportLab](https://img.shields.io/badge/ReportLab-E74C3C?style=flat-square)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
