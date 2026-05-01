@@ -115,11 +115,22 @@ Pipeline completo de automação do fechamento mensal para uma rede de supermerc
 
 ---
 
-### 🔄 Projeto 4 — Dashboard Operacional com KPIs
+### ✅ Projeto 4 — Dashboard Operacional com KPIs
 
-**BI Operacional · KPIs · Streamlit / Power BI**
+**BI Operacional · KPIs · Streamlit · Python**
 
-> Em desenvolvimento
+Dashboard operacional interativo para monitoramento de performance logística de uma transportadora (empresa fictícia: *Rota Certa Transportes Ltda.*), cobrindo 24 meses de dados simulados (Jan/2023 – Dez/2024).
+
+**O que foi construído:**
+- 4 datasets operacionais realistas: Entregas, Frota, Motoristas e Ocorrências (seed=42)
+- Modelagem de perfis individuais de 15 motoristas com score composto (SLA + Avarias + NPS)
+- Simulação de degradação de frota correlacionando idade do veículo com custo de manutenção e disponibilidade
+- Dashboard interativo com 5 páginas em Streamlit + Plotly: Visão Executiva, Análise de Entregas, Gestão de Frota, Performance de Motoristas e Ocorrências & Riscos
+- KPIs semaforizados: SLA %, Custo/km, Taxa de Avaria, Disponibilidade de Frota e Score de Saúde Operacional composto (0–100)
+
+**Stack:** `Python` `Pandas` `NumPy` `Streamlit` `Plotly`
+
+🔗 Repositório: [`dashboard-operacional`](https://github.com/Gary-Rainer-Chumacero-Vanderlei/dashboard-operacional)
 
 ---
 
